@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "TeakFramework"
-  spec.version      = "4.3.3-beta9"
+  spec.version      = "4.3.3-beta10"
   spec.summary      = "Teak provides rewarded push notifications, emails, and links for free to play games."
   spec.homepage     = "https://teak.io"
   spec.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
