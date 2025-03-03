@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Teak.h</key>
 		<data>
-		bwQytvUO9bRoEO9r6SSSAH+iK2k=
+		AZfhQK8i/zapyuLU4Rid7wmgWXo=
 		</data>
 		<key>Headers/TeakLink.h</key>
 		<data>
@@ -30,24 +30,36 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RAPW5ofZpDazQjNgX8p1Ell6ZQw=
+		ybYqkI42cmsDuqCrEl6OHJeaPu8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		76aqIsRfoPwsBQpFYJM0wJ/0AdM=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		1lixDD6gjB5oXtd9V5R6sxGs2zg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/Teak.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			AZfhQK8i/zapyuLU4Rid7wmgWXo=
+			</data>
 			<key>hash2</key>
 			<data>
-			F+t6ErgM0d4uuN4E4bWreFpDR0yc7axlsT/F+5bZPjE=
+			4teydhRrxoJOICiqYjl4UolpOQ12tgzaTHkz1Cctyu0=
 			</data>
 		</dict>
 		<key>Headers/TeakLink.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			tk4gcziWgk82EHR8KrriISzn4UU=
+			</data>
 			<key>hash2</key>
 			<data>
 			RE0MajvnHo0ul1N/ZbQPY9C8xh0Qg99X6yZasqBsgCE=
@@ -55,6 +67,10 @@
 		</dict>
 		<key>Headers/TeakNotification.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			d0Ou6Lb1N/RTz9ZDIiqmK1n5uVg=
+			</data>
 			<key>hash2</key>
 			<data>
 			F4oinPt8On/Rinn2MEknrP/JxrC7YPjt5AnJ/kwsrlA=
@@ -62,6 +78,10 @@
 		</dict>
 		<key>Headers/TeakOperation.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4h6DsmHIA2DZeLgiJkoeGcOir1w=
+			</data>
 			<key>hash2</key>
 			<data>
 			CwQ8toeFq+nDtkUsdiEU+71Uz8QbQZaDZGhELa6P0Jk=
@@ -69,6 +89,10 @@
 		</dict>
 		<key>Headers/TeakReward.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			hxfdnwwPbRshMIFKGgX9jKzS0V8=
+			</data>
 			<key>hash2</key>
 			<data>
 			y8UrFPmDyvcxV1SU6vsjD+Jq00UU1ZTNWPub0GfcoqE=
@@ -76,6 +100,10 @@
 		</dict>
 		<key>Headers/TeakUserConfiguration.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Kp8zFS4Tz9l9Vp6mUnS6piwoUJ8=
+			</data>
 			<key>hash2</key>
 			<data>
 			R3FEUtvKsWqnsjYiWfDlJPYKzDIwOiD3GKKLUbiqPxg=
@@ -83,9 +111,24 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			76aqIsRfoPwsBQpFYJM0wJ/0AdM=
+			</data>
 			<key>hash2</key>
 			<data>
 			xo86e4GYGOFXMe5L7KpGCpmw5pQuZN9yRuL223haBog=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1lixDD6gjB5oXtd9V5R6sxGs2zg=
+			</data>
+			<key>hash2</key>
+			<data>
+			EmOTExTyMEnTP0nzY5glca1SzHTpDIqaeL1XOR3rZjY=
 			</data>
 		</dict>
 	</dict>

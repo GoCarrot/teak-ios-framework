@@ -11,12 +11,20 @@ let package = Package(
     .library(
       name: "Teak",
       targets: ["Teak"]
+    ),
+    .library(
+      name: "TeakExtension",
+      targets: ["TeakExtension"]
     )
   ],
   targets: [
     .binaryTarget(
       name: "Teak",
-      path: "./Teak.xcframework.zip"
+      path: "./Teak.xcframework"
+    ),
+    .binaryTarget(
+      name: "TeakExtension",
+      path: "./TeakExtension.xcframework"
     ),
   ]
 )

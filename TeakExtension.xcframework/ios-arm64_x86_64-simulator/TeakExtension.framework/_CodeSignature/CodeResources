@@ -4,131 +4,86 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Teak.h</key>
+		<key>Headers/TeakExtension.h</key>
 		<data>
-		AZfhQK8i/zapyuLU4Rid7wmgWXo=
+		9QFpKpoWfd9F0PTufzMW7uId5wU=
 		</data>
-		<key>Headers/TeakLink.h</key>
+		<key>Headers/TeakNotificationServiceCore.h</key>
 		<data>
-		tk4gcziWgk82EHR8KrriISzn4UU=
+		5CVP8py0LZnyIJC/dqOG6iFXnXY=
 		</data>
-		<key>Headers/TeakNotification.h</key>
+		<key>Headers/TeakNotificationViewControllerCore.h</key>
 		<data>
-		d0Ou6Lb1N/RTz9ZDIiqmK1n5uVg=
-		</data>
-		<key>Headers/TeakOperation.h</key>
-		<data>
-		4h6DsmHIA2DZeLgiJkoeGcOir1w=
-		</data>
-		<key>Headers/TeakReward.h</key>
-		<data>
-		hxfdnwwPbRshMIFKGgX9jKzS0V8=
-		</data>
-		<key>Headers/TeakUserConfiguration.h</key>
-		<data>
-		Kp8zFS4Tz9l9Vp6mUnS6piwoUJ8=
+		VCZA9pJ/hWomj+XdeeEd8A3jJl0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1VD+Kvo0u7stTvqckQ2skbtFNIg=
+		J/EW8RJe/1umnjDfHRb7vNbiS8w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		76aqIsRfoPwsBQpFYJM0wJ/0AdM=
+		3whhmwBWQWYjcMfJLT9SmHMv6+g=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		1lixDD6gjB5oXtd9V5R6sxGs2zg=
+		eOI/Xa0Z2arP8p1AYRKzh9pocAo=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Teak.h</key>
+		<key>Headers/TeakExtension.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AZfhQK8i/zapyuLU4Rid7wmgWXo=
+			9QFpKpoWfd9F0PTufzMW7uId5wU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4teydhRrxoJOICiqYjl4UolpOQ12tgzaTHkz1Cctyu0=
+			PJqHTNIc1HWRiy4eFIp/Wc5WyNsjOtUF0PPTxg61dbY=
 			</data>
 		</dict>
-		<key>Headers/TeakLink.h</key>
+		<key>Headers/TeakNotificationServiceCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tk4gcziWgk82EHR8KrriISzn4UU=
+			5CVP8py0LZnyIJC/dqOG6iFXnXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			RE0MajvnHo0ul1N/ZbQPY9C8xh0Qg99X6yZasqBsgCE=
+			ca4g/75Q97KmbZ9J5nPFBxmkjR1TS9PenxhQXW8DTXE=
 			</data>
 		</dict>
-		<key>Headers/TeakNotification.h</key>
+		<key>Headers/TeakNotificationViewControllerCore.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d0Ou6Lb1N/RTz9ZDIiqmK1n5uVg=
+			VCZA9pJ/hWomj+XdeeEd8A3jJl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			F4oinPt8On/Rinn2MEknrP/JxrC7YPjt5AnJ/kwsrlA=
-			</data>
-		</dict>
-		<key>Headers/TeakOperation.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4h6DsmHIA2DZeLgiJkoeGcOir1w=
-			</data>
-			<key>hash2</key>
-			<data>
-			CwQ8toeFq+nDtkUsdiEU+71Uz8QbQZaDZGhELa6P0Jk=
-			</data>
-		</dict>
-		<key>Headers/TeakReward.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hxfdnwwPbRshMIFKGgX9jKzS0V8=
-			</data>
-			<key>hash2</key>
-			<data>
-			y8UrFPmDyvcxV1SU6vsjD+Jq00UU1ZTNWPub0GfcoqE=
-			</data>
-		</dict>
-		<key>Headers/TeakUserConfiguration.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Kp8zFS4Tz9l9Vp6mUnS6piwoUJ8=
-			</data>
-			<key>hash2</key>
-			<data>
-			R3FEUtvKsWqnsjYiWfDlJPYKzDIwOiD3GKKLUbiqPxg=
+			14rNbB3Rb2j9RgAvCXm/b7JhC00BxVm0zqIZn1aIYcI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			76aqIsRfoPwsBQpFYJM0wJ/0AdM=
+			3whhmwBWQWYjcMfJLT9SmHMv6+g=
 			</data>
 			<key>hash2</key>
 			<data>
-			xo86e4GYGOFXMe5L7KpGCpmw5pQuZN9yRuL223haBog=
+			YAHG+eQOlEaSfD7vffIaqQrN+2a2n2OfvkJKLO5ARvA=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1lixDD6gjB5oXtd9V5R6sxGs2zg=
+			eOI/Xa0Z2arP8p1AYRKzh9pocAo=
 			</data>
 			<key>hash2</key>
 			<data>
-			EmOTExTyMEnTP0nzY5glca1SzHTpDIqaeL1XOR3rZjY=
+			9i8YBllGz3y8riUyASB0uVKra9hO48cSaS81XEUwA6Y=
 			</data>
 		</dict>
 	</dict>

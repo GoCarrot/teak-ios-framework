@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-  spec.name         = "TeakFramework"
-  spec.version      = "4.3.3-beta10"
+  spec.name         = "Teak"
+  spec.version      = "4.3.3"
   spec.summary      = "Teak provides rewarded push notifications, emails, and links for free to play games."
   spec.homepage     = "https://teak.io"
   spec.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
@@ -16,5 +16,10 @@ Pod::Spec.new do |spec|
   spec.subspec 'Core' do |core|
     core.vendored_frameworks = 'Teak.xcframework'
     core.frameworks = "AdSupport", "AVFoundation", "ImageIO", "CoreServices", "StoreKit", "UserNotifications", "CoreGraphics", "UIKit", "SystemConfiguration"
+  end
+
+  spec.subspec 'Extension' do |ext|
+    ext.vendored_frameworks = "TeakExtension.xcframework"
+    ext.frameworks = "ImageIO", "CoreGraphics", "UserNotifications"
   end
 end

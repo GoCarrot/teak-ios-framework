@@ -1,0 +1,134 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/alex/Library/Developer/Xcode/DerivedData/Teak-fzsivnawwqzyyrfqpekgkreblzhz/Build/Intermediates.noindex/ArchiveIntermediates/ExtensionFramework/InstallationBuildProductsLocation/Library/Frameworks/TeakExtension.framework/TeakExtension'
+relocations:
+  - { offset: 0x751A5, size: 0x8, addend: 0x0, symName: _TeakExtensionVersionString, symObjAddr: 0x0, symBinAddr: 0xB320, symSize: 0x0 }
+  - { offset: 0x751DA, size: 0x8, addend: 0x0, symName: _TeakExtensionVersionNumber, symObjAddr: 0x30, symBinAddr: 0xB350, symSize: 0x0 }
+  - { offset: 0x75217, size: 0x8, addend: 0x0, symName: _UIImage_animatedImageWithAnimatedGIFData, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x4C }
+  - { offset: 0x7526C, size: 0x8, addend: 0x0, symName: _UIImage_animatedImageWithAnimatedGIFData, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x4C }
+  - { offset: 0x75320, size: 0x8, addend: 0x0, symName: _animatedImageWithAnimatedGIFImageSource, symObjAddr: 0x4C, symBinAddr: 0x404C, symSize: 0x264 }
+  - { offset: 0x757BA, size: 0x8, addend: 0x0, symName: _frameArray, symObjAddr: 0x2B0, symBinAddr: 0x42B0, symSize: 0x1B0 }
+  - { offset: 0x75A4C, size: 0x8, addend: 0x0, symName: _TeakURLSessionWithoutDelegate, symObjAddr: 0x0, symBinAddr: 0x4460, symSize: 0x40 }
+  - { offset: 0x75A5A, size: 0x8, addend: 0x0, symName: _TeakURLSessionWithoutDelegate, symObjAddr: 0x0, symBinAddr: 0x4460, symSize: 0x40 }
+  - { offset: 0x75A80, size: 0x8, addend: 0x0, symName: _TeakURLSessionWithoutDelegate.session, symObjAddr: 0x4280, symBinAddr: 0x127D0, symSize: 0x0 }
+  - { offset: 0x75A96, size: 0x8, addend: 0x0, symName: _TeakURLSessionWithoutDelegate.onceToken, symObjAddr: 0x4288, symBinAddr: 0x127D8, symSize: 0x0 }
+  - { offset: 0x75B17, size: 0x8, addend: 0x0, symName: ___TeakURLSessionWithoutDelegate_block_invoke, symObjAddr: 0x40, symBinAddr: 0x44A0, symSize: 0x118 }
+  - { offset: 0x75B5D, size: 0x8, addend: 0x0, symName: _UNNotificationCenterSettingsSync, symObjAddr: 0x158, symBinAddr: 0x45B8, symSize: 0x138 }
+  - { offset: 0x75C4F, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x290, symBinAddr: 0x46F0, symSize: 0x10 }
+  - { offset: 0x75C74, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x2A0, symBinAddr: 0x4700, symSize: 0x8 }
+  - { offset: 0x75C93, size: 0x8, addend: 0x0, symName: ___UNNotificationCenterSettingsSync_block_invoke, symObjAddr: 0x2A8, symBinAddr: 0x4708, symSize: 0x48 }
+  - { offset: 0x75D0E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x2F0, symBinAddr: 0x4750, symSize: 0x34 }
+  - { offset: 0x75D37, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x324, symBinAddr: 0x4784, symSize: 0x2C }
+  - { offset: 0x75D56, size: 0x8, addend: 0x0, symName: _TeakSendHealthCheckIfNeededSynch, symObjAddr: 0x350, symBinAddr: 0x47B0, symSize: 0x628 }
+  - { offset: 0x75F33, size: 0x8, addend: 0x0, symName: ___TeakSendHealthCheckIfNeededSynch_block_invoke, symObjAddr: 0x978, symBinAddr: 0x4DD8, symSize: 0x8 }
+  - { offset: 0x75FA0, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x980, symBinAddr: 0x4DE0, symSize: 0x8 }
+  - { offset: 0x75FC7, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x988, symBinAddr: 0x4DE8, symSize: 0x8 }
+  - { offset: 0x76237, size: 0x8, addend: 0x0, symName: _TeakNSNullOrNil, symObjAddr: 0x0, symBinAddr: 0x4DF0, symSize: 0x6C }
+  - { offset: 0x76245, size: 0x8, addend: 0x0, symName: _TeakURLEscapedString, symObjAddr: 0x164, symBinAddr: 0x4F54, symSize: 0x70 }
+  - { offset: 0x7626B, size: 0x8, addend: 0x0, symName: _TeakURLEscapedString.rfc3986Reserved, symObjAddr: 0x2E40, symBinAddr: 0x127E0, symSize: 0x0 }
+  - { offset: 0x76281, size: 0x8, addend: 0x0, symName: _TeakURLEscapedString.onceToken, symObjAddr: 0x2E48, symBinAddr: 0x127E8, symSize: 0x0 }
+  - { offset: 0x762D0, size: 0x8, addend: 0x0, symName: _TeakNSNullOrNil, symObjAddr: 0x0, symBinAddr: 0x4DF0, symSize: 0x6C }
+  - { offset: 0x762FB, size: 0x8, addend: 0x0, symName: _TeakValueOrNSNull, symObjAddr: 0x6C, symBinAddr: 0x4E5C, symSize: 0x54 }
+  - { offset: 0x76326, size: 0x8, addend: 0x0, symName: _TeakNSStringOrNilFor, symObjAddr: 0xC0, symBinAddr: 0x4EB0, symSize: 0x88 }
+  - { offset: 0x7637C, size: 0x8, addend: 0x0, symName: _TeakStringForBool, symObjAddr: 0x148, symBinAddr: 0x4F38, symSize: 0x1C }
+  - { offset: 0x763EE, size: 0x8, addend: 0x0, symName: ___TeakURLEscapedString_block_invoke, symObjAddr: 0x1D4, symBinAddr: 0x4FC4, symSize: 0x5C }
+  - { offset: 0x76415, size: 0x8, addend: 0x0, symName: _TeakBoolFor, symObjAddr: 0x230, symBinAddr: 0x5020, symSize: 0x48 }
+  - { offset: 0x7644E, size: 0x8, addend: 0x0, symName: _TeakHexStringFromData, symObjAddr: 0x278, symBinAddr: 0x5068, symSize: 0xB4 }
+  - { offset: 0x764C4, size: 0x8, addend: 0x0, symName: _TeakAssignPayloadToRequest, symObjAddr: 0x32C, symBinAddr: 0x511C, symSize: 0x100 }
+  - { offset: 0x7651B, size: 0x8, addend: 0x0, symName: _TeakGetQueryParameterDictionaryFromUrl, symObjAddr: 0x42C, symBinAddr: 0x521C, symSize: 0x330 }
+  - { offset: 0x765CA, size: 0x8, addend: 0x0, symName: _TeakStringsAreEqualConsideringNSNull, symObjAddr: 0x75C, symBinAddr: 0x554C, symSize: 0xCC }
+  - { offset: 0x7673E, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore didReceiveNotificationRequest:withContentHandler:]', symObjAddr: 0x0, symBinAddr: 0x5618, symSize: 0xEEC }
+  - { offset: 0x768B6, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore didReceiveNotificationRequest:withContentHandler:]', symObjAddr: 0x0, symBinAddr: 0x5618, symSize: 0xEEC }
+  - { offset: 0x76C3C, size: 0x8, addend: 0x0, symName: '___80-[TeakNotificationServiceCore didReceiveNotificationRequest:withContentHandler:]_block_invoke', symObjAddr: 0xEEC, symBinAddr: 0x6504, symSize: 0x80 }
+  - { offset: 0x76C96, size: 0x8, addend: 0x0, symName: '___80-[TeakNotificationServiceCore didReceiveNotificationRequest:withContentHandler:]_block_invoke.3', symObjAddr: 0xF7C, symBinAddr: 0x6584, symSize: 0x8 }
+  - { offset: 0x76CF6, size: 0x8, addend: 0x0, symName: '___80-[TeakNotificationServiceCore didReceiveNotificationRequest:withContentHandler:]_block_invoke_2', symObjAddr: 0xF84, symBinAddr: 0x658C, symSize: 0x178 }
+  - { offset: 0x76D6B, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore serviceExtensionTimeWillExpire]', symObjAddr: 0x10FC, symBinAddr: 0x6704, symSize: 0x7C }
+  - { offset: 0x76DB9, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore loadAttachment:forMIMEType:atIndex:]', symObjAddr: 0x1178, symBinAddr: 0x6780, symSize: 0x250 }
+  - { offset: 0x76ED4, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x13C8, symBinAddr: 0x69D0, symSize: 0x10 }
+  - { offset: 0x76EF9, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x13D8, symBinAddr: 0x69E0, symSize: 0x8 }
+  - { offset: 0x76F18, size: 0x8, addend: 0x0, symName: '___66-[TeakNotificationServiceCore loadAttachment:forMIMEType:atIndex:]_block_invoke', symObjAddr: 0x13E0, symBinAddr: 0x69E8, symSize: 0x68 }
+  - { offset: 0x76F77, size: 0x8, addend: 0x0, symName: '___66-[TeakNotificationServiceCore loadAttachment:forMIMEType:atIndex:]_block_invoke.53', symObjAddr: 0x14A8, symBinAddr: 0x6A50, symSize: 0x1F0 }
+  - { offset: 0x7707D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56r, symObjAddr: 0x1698, symBinAddr: 0x6C40, symSize: 0x44 }
+  - { offset: 0x770A6, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56r, symObjAddr: 0x16DC, symBinAddr: 0x6C84, symSize: 0x3C }
+  - { offset: 0x770C5, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore sendMetricForPayload:]', symObjAddr: 0x1718, symBinAddr: 0x6CC0, symSize: 0x1AC }
+  - { offset: 0x77186, size: 0x8, addend: 0x0, symName: '___52-[TeakNotificationServiceCore sendMetricForPayload:]_block_invoke', symObjAddr: 0x18C4, symBinAddr: 0x6E6C, symSize: 0x4 }
+  - { offset: 0x771AD, size: 0x8, addend: 0x0, symName: '___52-[TeakNotificationServiceCore sendMetricForPayload:]_block_invoke_2', symObjAddr: 0x18C8, symBinAddr: 0x6E70, symSize: 0x3C }
+  - { offset: 0x77220, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1904, symBinAddr: 0x6EAC, symSize: 0x28 }
+  - { offset: 0x77249, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x192C, symBinAddr: 0x6ED4, symSize: 0x28 }
+  - { offset: 0x77268, size: 0x8, addend: 0x0, symName: '+[TeakNotificationServiceCore connectionTypeToHost:]', symObjAddr: 0x1954, symBinAddr: 0x6EFC, symSize: 0x90 }
+  - { offset: 0x7739F, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore contentHandler]', symObjAddr: 0x19E4, symBinAddr: 0x6F8C, symSize: 0x10 }
+  - { offset: 0x773D6, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore setContentHandler:]', symObjAddr: 0x19F4, symBinAddr: 0x6F9C, symSize: 0xC }
+  - { offset: 0x77415, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore bestAttemptContent]', symObjAddr: 0x1A00, symBinAddr: 0x6FA8, symSize: 0x10 }
+  - { offset: 0x7744C, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore setBestAttemptContent:]', symObjAddr: 0x1A10, symBinAddr: 0x6FB8, symSize: 0x14 }
+  - { offset: 0x7748D, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore session]', symObjAddr: 0x1A24, symBinAddr: 0x6FCC, symSize: 0x10 }
+  - { offset: 0x774C4, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore setSession:]', symObjAddr: 0x1A34, symBinAddr: 0x6FDC, symSize: 0x14 }
+  - { offset: 0x77505, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore operationQueue]', symObjAddr: 0x1A48, symBinAddr: 0x6FF0, symSize: 0x10 }
+  - { offset: 0x7753C, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore setOperationQueue:]', symObjAddr: 0x1A58, symBinAddr: 0x7000, symSize: 0x14 }
+  - { offset: 0x7757D, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore contentHandlerOperation]', symObjAddr: 0x1A6C, symBinAddr: 0x7014, symSize: 0x10 }
+  - { offset: 0x775B4, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore setContentHandlerOperation:]', symObjAddr: 0x1A7C, symBinAddr: 0x7024, symSize: 0x14 }
+  - { offset: 0x775F5, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore attachments]', symObjAddr: 0x1A90, symBinAddr: 0x7038, symSize: 0x10 }
+  - { offset: 0x7762C, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore setAttachments:]', symObjAddr: 0x1AA0, symBinAddr: 0x7048, symSize: 0xC }
+  - { offset: 0x7766B, size: 0x8, addend: 0x0, symName: '-[TeakNotificationServiceCore .cxx_destruct]', symObjAddr: 0x1AAC, symBinAddr: 0x7054, symSize: 0x90 }
+  - { offset: 0x77B02, size: 0x8, addend: 0x0, symName: '+[TeakAVPlayerView layerClass]', symObjAddr: 0x0, symBinAddr: 0x70E4, symSize: 0xC }
+  - { offset: 0x77DCB, size: 0x8, addend: 0x0, symName: '+[TeakAVPlayerView layerClass]', symObjAddr: 0x0, symBinAddr: 0x70E4, symSize: 0xC }
+  - { offset: 0x77DFE, size: 0x8, addend: 0x0, symName: '-[TeakAVPlayerView setPlayer:]', symObjAddr: 0xC, symBinAddr: 0x70F0, symSize: 0x64 }
+  - { offset: 0x77E41, size: 0x8, addend: 0x0, symName: '-[TeakAVPlayerView player]', symObjAddr: 0x70, symBinAddr: 0x7154, symSize: 0x10 }
+  - { offset: 0x77E78, size: 0x8, addend: 0x0, symName: '-[TeakAVPlayerView .cxx_destruct]', symObjAddr: 0x80, symBinAddr: 0x7164, symSize: 0x14 }
+  - { offset: 0x77EAB, size: 0x8, addend: 0x0, symName: '-[UIImageArrayView initWithImageArray:]', symObjAddr: 0x94, symBinAddr: 0x7178, symSize: 0x6C }
+  - { offset: 0x77EF2, size: 0x8, addend: 0x0, symName: '-[UIImageArrayView setImageArray:]', symObjAddr: 0x100, symBinAddr: 0x71E4, symSize: 0x38 }
+  - { offset: 0x77F35, size: 0x8, addend: 0x0, symName: '-[UIImageArrayView setImageIndex:]', symObjAddr: 0x138, symBinAddr: 0x721C, symSize: 0x6C }
+  - { offset: 0x77F78, size: 0x8, addend: 0x0, symName: '-[UIImageArrayView imageArray]', symObjAddr: 0x1A4, symBinAddr: 0x7288, symSize: 0x10 }
+  - { offset: 0x77FAF, size: 0x8, addend: 0x0, symName: '-[UIImageArrayView imageIndex]', symObjAddr: 0x1B4, symBinAddr: 0x7298, symSize: 0x10 }
+  - { offset: 0x77FE6, size: 0x8, addend: 0x0, symName: '-[UIImageArrayView .cxx_destruct]', symObjAddr: 0x1C4, symBinAddr: 0x72A8, symSize: 0x14 }
+  - { offset: 0x78019, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore viewDidLoad]', symObjAddr: 0x1D8, symBinAddr: 0x72BC, symSize: 0x34 }
+  - { offset: 0x7804C, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore viewWillDisappear:]', symObjAddr: 0x20C, symBinAddr: 0x72F0, symSize: 0x94 }
+  - { offset: 0x7808F, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore configureForNotification:]', symObjAddr: 0x2A0, symBinAddr: 0x7384, symSize: 0x208 }
+  - { offset: 0x78100, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore initURLSession]', symObjAddr: 0x4A8, symBinAddr: 0x758C, symSize: 0x154 }
+  - { offset: 0x78143, size: 0x8, addend: 0x0, symName: '___52-[TeakNotificationViewControllerCore initURLSession]_block_invoke', symObjAddr: 0x5FC, symBinAddr: 0x76E0, symSize: 0x44 }
+  - { offset: 0x7819D, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32w, symObjAddr: 0x640, symBinAddr: 0x7724, symSize: 0xC }
+  - { offset: 0x781C6, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32w, symObjAddr: 0x64C, symBinAddr: 0x7730, symSize: 0x8 }
+  - { offset: 0x781E5, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore queueMetricSend]', symObjAddr: 0x654, symBinAddr: 0x7738, symSize: 0x1D8 }
+  - { offset: 0x7828A, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore createThumbnailViewForItem:atTime:]', symObjAddr: 0x82C, symBinAddr: 0x7910, symSize: 0x1D8 }
+  - { offset: 0x783A4, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore didReceiveNotification:]', symObjAddr: 0xA04, symBinAddr: 0x7AE8, symSize: 0xB9C }
+  - { offset: 0x785DB, size: 0x8, addend: 0x0, symName: '___61-[TeakNotificationViewControllerCore didReceiveNotification:]_block_invoke', symObjAddr: 0x15A0, symBinAddr: 0x8684, symSize: 0xC8 }
+  - { offset: 0x78645, size: 0x8, addend: 0x0, symName: '___61-[TeakNotificationViewControllerCore didReceiveNotification:]_block_invoke_2', symObjAddr: 0x1668, symBinAddr: 0x874C, symSize: 0xD4 }
+  - { offset: 0x7869F, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore didReceiveNotificationResponse:completionHandler:]', symObjAddr: 0x173C, symBinAddr: 0x8820, symSize: 0x18C }
+  - { offset: 0x78726, size: 0x8, addend: 0x0, symName: '___87-[TeakNotificationViewControllerCore didReceiveNotificationResponse:completionHandler:]_block_invoke', symObjAddr: 0x18C8, symBinAddr: 0x89AC, symSize: 0x10 }
+  - { offset: 0x78777, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x18D8, symBinAddr: 0x89BC, symSize: 0x10 }
+  - { offset: 0x787C7, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore handleNotificationResponseForAction:completionHandler:]', symObjAddr: 0x18F0, symBinAddr: 0x89CC, symSize: 0xA8 }
+  - { offset: 0x78870, size: 0x8, addend: 0x0, symName: '___92-[TeakNotificationViewControllerCore handleNotificationResponseForAction:completionHandler:]_block_invoke', symObjAddr: 0x1998, symBinAddr: 0x8A74, symSize: 0x19C }
+  - { offset: 0x7892E, size: 0x8, addend: 0x0, symName: '___92-[TeakNotificationViewControllerCore handleNotificationResponseForAction:completionHandler:]_block_invoke_2', symObjAddr: 0x1B34, symBinAddr: 0x8C10, symSize: 0xC }
+  - { offset: 0x78985, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x1B40, symBinAddr: 0x8C1C, symSize: 0x34 }
+  - { offset: 0x789AE, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore buttonTouchUpInside:forEvent:]', symObjAddr: 0x1B9C, symBinAddr: 0x8C50, symSize: 0xAC }
+  - { offset: 0x78A0D, size: 0x8, addend: 0x0, symName: '___67-[TeakNotificationViewControllerCore buttonTouchUpInside:forEvent:]_block_invoke', symObjAddr: 0x1C48, symBinAddr: 0x8CFC, symSize: 0x7C }
+  - { offset: 0x78AA4, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore sendMetricForPayload:]', symObjAddr: 0x1CCC, symBinAddr: 0x8D78, symSize: 0x1AC }
+  - { offset: 0x78B6B, size: 0x8, addend: 0x0, symName: '___59-[TeakNotificationViewControllerCore sendMetricForPayload:]_block_invoke', symObjAddr: 0x1E78, symBinAddr: 0x8F24, symSize: 0x4 }
+  - { offset: 0x78B94, size: 0x8, addend: 0x0, symName: '___59-[TeakNotificationViewControllerCore sendMetricForPayload:]_block_invoke_2', symObjAddr: 0x1E7C, symBinAddr: 0x8F28, symSize: 0x3C }
+  - { offset: 0x78C0E, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore session]', symObjAddr: 0x1EE0, symBinAddr: 0x8F64, symSize: 0x10 }
+  - { offset: 0x78C45, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setSession:]', symObjAddr: 0x1EF0, symBinAddr: 0x8F74, symSize: 0x14 }
+  - { offset: 0x78C86, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore operationQueue]', symObjAddr: 0x1F04, symBinAddr: 0x8F88, symSize: 0x10 }
+  - { offset: 0x78CBD, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setOperationQueue:]', symObjAddr: 0x1F14, symBinAddr: 0x8F98, symSize: 0x14 }
+  - { offset: 0x78CFE, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore sessionFinishOperation]', symObjAddr: 0x1F28, symBinAddr: 0x8FAC, symSize: 0x10 }
+  - { offset: 0x78D35, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setSessionFinishOperation:]', symObjAddr: 0x1F38, symBinAddr: 0x8FBC, symSize: 0x14 }
+  - { offset: 0x78D76, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore assets]', symObjAddr: 0x1F4C, symBinAddr: 0x8FD0, symSize: 0x10 }
+  - { offset: 0x78DAD, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setAssets:]', symObjAddr: 0x1F5C, symBinAddr: 0x8FE0, symSize: 0x14 }
+  - { offset: 0x78DEE, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore notificationUserData]', symObjAddr: 0x1F70, symBinAddr: 0x8FF4, symSize: 0x10 }
+  - { offset: 0x78E25, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setNotificationUserData:]', symObjAddr: 0x1F80, symBinAddr: 0x9004, symSize: 0x14 }
+  - { offset: 0x78E66, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore playerLooper]', symObjAddr: 0x1F94, symBinAddr: 0x9018, symSize: 0x10 }
+  - { offset: 0x78E9D, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setPlayerLooper:]', symObjAddr: 0x1FA4, symBinAddr: 0x9028, symSize: 0x14 }
+  - { offset: 0x78EDE, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore videoPlayer]', symObjAddr: 0x1FB8, symBinAddr: 0x903C, symSize: 0x10 }
+  - { offset: 0x78F15, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setVideoPlayer:]', symObjAddr: 0x1FC8, symBinAddr: 0x904C, symSize: 0x14 }
+  - { offset: 0x78F56, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore notificationContentView]', symObjAddr: 0x1FDC, symBinAddr: 0x9060, symSize: 0x10 }
+  - { offset: 0x78F8D, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setNotificationContentView:]', symObjAddr: 0x1FEC, symBinAddr: 0x9070, symSize: 0x14 }
+  - { offset: 0x78FCE, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore actions]', symObjAddr: 0x2000, symBinAddr: 0x9084, symSize: 0x10 }
+  - { offset: 0x79005, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setActions:]', symObjAddr: 0x2010, symBinAddr: 0x9094, symSize: 0x14 }
+  - { offset: 0x79046, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore autoPlay]', symObjAddr: 0x2024, symBinAddr: 0x90A8, symSize: 0x10 }
+  - { offset: 0x7907D, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setAutoPlay:]', symObjAddr: 0x2034, symBinAddr: 0x90B8, symSize: 0x10 }
+  - { offset: 0x790B8, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore loopInitialContent]', symObjAddr: 0x2044, symBinAddr: 0x90C8, symSize: 0x10 }
+  - { offset: 0x790EF, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setLoopInitialContent:]', symObjAddr: 0x2054, symBinAddr: 0x90D8, symSize: 0x10 }
+  - { offset: 0x7912A, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore prepareContentView]', symObjAddr: 0x2064, symBinAddr: 0x90E8, symSize: 0x10 }
+  - { offset: 0x79161, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setPrepareContentView:]', symObjAddr: 0x2074, symBinAddr: 0x90F8, symSize: 0xC }
+  - { offset: 0x791A0, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore inputHandlerDispatchOnce]', symObjAddr: 0x2080, symBinAddr: 0x9104, symSize: 0x10 }
+  - { offset: 0x791D7, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore setInputHandlerDispatchOnce:]', symObjAddr: 0x2090, symBinAddr: 0x9114, symSize: 0x10 }
+  - { offset: 0x79214, size: 0x8, addend: 0x0, symName: '-[TeakNotificationViewControllerCore .cxx_destruct]', symObjAddr: 0x20A0, symBinAddr: 0x9124, symSize: 0xE0 }
+...
