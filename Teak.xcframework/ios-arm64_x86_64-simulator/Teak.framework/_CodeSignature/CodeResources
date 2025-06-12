@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Teak.h</key>
 		<data>
-		AZfhQK8i/zapyuLU4Rid7wmgWXo=
+		cN8S5k1zvn9Fc8rL1lIY2Hc707g=
 		</data>
 		<key>Headers/TeakLink.h</key>
 		<data>
@@ -24,13 +24,17 @@
 		<data>
 		hxfdnwwPbRshMIFKGgX9jKzS0V8=
 		</data>
+		<key>Headers/TeakSceneHooks.h</key>
+		<data>
+		UZaDgYdpA8iOtj/TvdvMOopgZNU=
+		</data>
 		<key>Headers/TeakUserConfiguration.h</key>
 		<data>
 		Kp8zFS4Tz9l9Vp6mUnS6piwoUJ8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ybYqkI42cmsDuqCrEl6OHJeaPu8=
+		N8IR4sacWnMNnARHbJF241b3Dg0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AZfhQK8i/zapyuLU4Rid7wmgWXo=
+			cN8S5k1zvn9Fc8rL1lIY2Hc707g=
 			</data>
 			<key>hash2</key>
 			<data>
-			4teydhRrxoJOICiqYjl4UolpOQ12tgzaTHkz1Cctyu0=
+			LCgITBcgNaGYjcROBZXn5LebIOyfsa1U/O3BXI1RHJw=
 			</data>
 		</dict>
 		<key>Headers/TeakLink.h</key>
@@ -96,6 +100,17 @@
 			<key>hash2</key>
 			<data>
 			y8UrFPmDyvcxV1SU6vsjD+Jq00UU1ZTNWPub0GfcoqE=
+			</data>
+		</dict>
+		<key>Headers/TeakSceneHooks.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UZaDgYdpA8iOtj/TvdvMOopgZNU=
+			</data>
+			<key>hash2</key>
+			<data>
+			WR+gP0+QTRj3totq3zFd0PYjkMBLcmNWdjY8WlJr7Sw=
 			</data>
 		</dict>
 		<key>Headers/TeakUserConfiguration.h</key>
