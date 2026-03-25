@@ -1,6 +1,6 @@
 framework module Teak {
   umbrella header "Teak.h"
-  export *
 
+  export *
   module * { export * }
 }
