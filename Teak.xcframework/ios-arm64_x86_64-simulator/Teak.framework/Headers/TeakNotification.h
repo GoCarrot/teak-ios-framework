@@ -11,16 +11,16 @@
 /**
  * Schedule a notification for this user at a time in the future.
  *
- * @param creativeId                      The identifier of the notification in the Teak dashboard (will create if not found).
+ * @param creativeId                      The identifier of the notification in the Teak dashboard, this must already exist.
  * @param delay                                 The delay in seconds from now to send the notification.
- * @param personalizationData Optional dictionary of addiontal information which can be used for templating.
+ * @param personalizationData Optional dictionary of additional information which can be used for templating.
  */
 + (nullable TeakOperation*)scheduleNotificationForCreative:(nonnull NSString*)creativeId secondsFromNow:(int64_t)delay personalizationData:(nullable NSDictionary*)personalizationData;
 
 /**
- * The identifier for the scheduled notification.
+ * The id of the notification this call created or canceled, or a JSON-encoded array of ids if it affected more than one.
  *
- * Also accessable via:
+ * Also accessible via:
  *
  * 	const char* TeakNotificationGetTeakNotifId(TeakNotification* notif)
  */
@@ -37,7 +37,7 @@
  * - error.parameter.delayInSeconds - delayInSeconds can not be negative, or greater than one month
  * - error.parameter.userIds - userIds can not be null or empty
  *
- * Also accessable via:
+ * Also accessible via:
  *
  * 	const char* TeakNotificationGetStatus(TeakNotification* notif)
  */
@@ -96,7 +96,7 @@
 /**
  * YES if the notification operation has completed.
  *
- * Also accessable via:
+ * Also accessible via:
  *
  * 	BOOL TeakNotificationIsCompleted(TeakNotification* notif)
  */

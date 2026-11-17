@@ -191,7 +191,8 @@ typedef void (^TeakLogListener)(NSString* _Nonnull event,
  * 	}
  *
  *
- * This functionality is also accessable from the C API:
+ * This functionality is also accessable from the C API, with the same requirement: call it on the
+ * main thread, before UIApplicationMain() is called.
  *
  * 	extern void Teak_Plant(Class appDelegateClass,
  * 	                       NSString* appId,
@@ -424,7 +425,9 @@ typedef void (^TeakLogListener)(NSString* _Nonnull event,
 /**
  * Open Settings.app to the settings for this application.
  *
- * @return                YES if Settings.app was opened.
+ * The open is asynchronous. Whether Settings.app opened is logged.
+ *
+ * @return                YES if the request to open Settings.app was sent.
  */
 - (BOOL)openSettingsAppToThisAppsSettings;
 
@@ -501,6 +504,28 @@ typedef void (^TeakLogListener)(NSString* _Nonnull event,
  * @return NSArray<TeakChannelCategory*> if TeakConfigurationData has posted, otherwise nil.
  */
 - (NSArray* _Nullable)channelCategories;
+
+/**
+ * Report a purchase made with StoreKit 2.
+ *
+ * Teak tracks StoreKit 1 purchases automatically, but not StoreKit 2 purchases. Call this
+ * once the purchase succeeds, passing the transaction's signed JWS. Call it from any thread,
+ * before or after you finish the transaction. Teak never finishes it. Reporting the same
+ * transaction more than once is safe. Reports made before the player is identified are sent
+ * once they are. Renewals, revoked transactions and Family Sharing copies are not reported.
+ *
+ * 	// Swift
+ * 	if case .success(let verification) = try await product.purchase() {
+ * 	  Teak.sharedInstance()?.reportStoreKit2Transaction(verification.jwsRepresentation)
+ * 	}
+ *
+ * This functionality is also accessible from the C API:
+ *
+ * 	extern void TeakReportStoreKit2Transaction(const char* jwsRepresentation);
+ *
+ * @param jwsRepresentation The ``jwsRepresentation`` of the ``VerificationResult<Transaction>`` for the purchase.
+ */
+- (void)reportStoreKit2Transaction:(nonnull NSString*)jwsRepresentation;
 
 /**
  * Process deep links.
@@ -596,6 +621,10 @@ typedef void (^TeakLogListener)(NSString* _Nonnull event,
  * whenever the token rotates during the activity's lifetime. The SDK forwards the token and
  * the OS-level system activity identifier to the Teak backend so that server-driven live
  * activity updates can be delivered via APNs.
+ *
+ * Forwarding the same token for the same activity again returns the operation from the
+ * original call rather than sending a second request, so cancelling it or setting its
+ * ``completionBlock`` affects every caller holding it.
  *
  * @param activityId       A stable, game-chosen constant string naming the *kind* of live
  *                         activity (for example, ``@"chest_timer"``). All instances of the
